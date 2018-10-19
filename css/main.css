@@ -1,4 +1,47 @@
 /*Cascading Style Sheets*/
-li:last-child {
-	color:green;
+body {
+	margin: 0;
+	text-align: center;
 }
+nav {
+	background-color: gray;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+}
+nav li {
+	background-color: silver;
+	display: inline-block;
+	padding: 10px 50px;
+	transition: 0.8s ease;
+	
+}
+
+nav a{
+	color: dodgerblue;
+}
+
+nav li:hover {
+	background-color: white;
+	border-radius: 10px;
+	border: solid;
+	border-color: gold;
+	border-width: 5px;
+	color:red;
+	font-size: 50px;
+}
+button {
+	padding: 20px;
+	border-radius: 10px;
+	background-color: yellow;	
+	color: dodgerblue;
+}
+button:hover{
+	background-color:gold;
+	color:white;
+}
+.button {
+	padding: 20px;
+
+}
+
